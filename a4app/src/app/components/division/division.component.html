@@ -1,0 +1,20 @@
+<table class="table table-hover">
+  <thead>
+  <tr>
+      <th>ID</th>
+      <th>Division</th>
+      <th colspan="2">Actions</th>
+  </tr>
+  </thead>
+
+  <tbody>
+      <tr *ngFor="let division of divisions">
+          <td>{{ division.id }}</td>
+          <td>{{ division.name }}</td>
+          <!-- <td><a class="btn btn-primary btn-xs">Edit</a></td>
+          <td><a class="btn btn-danger btn-xs">Delete</a></td> -->
+          <td><a [routerLink]="['/edit', division.id]" class="btn btn-primary  btn-xs">Edit</a></td>
+          <td><a routerLink="" class="btn btn-danger  btn-xs">Delete</a></td>
+      </tr>
+  </tbody>
+</table>

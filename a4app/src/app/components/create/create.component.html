@@ -1,0 +1,17 @@
+<div class="panel panel-primary">
+    <div class="panel-heading">
+      Division Create
+    </div>
+    <div class="panel-body">
+      <form id="formNewDivision" name="formNewDivision" #divisionData="ngForm" (ngSubmit)="addNewDivision(divisionData.value)">
+        <div class="form-group">
+          <label class="col-md-4">Division Name</label>
+          <input type="text" class="form-control" name="name" id="name" mgModel/>
+        </div>
+        <input type="submit" value="Add Division"/>
+        <!-- <div class="form-group">
+          <button type="submit" class="btn btn-primary" value="Add Division">Add</button>
+        </div> -->
+      </form>
+    </div>
+  </div>

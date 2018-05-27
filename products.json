@@ -1,0 +1,54 @@
+{
+  "products": [
+    {
+      "name": "Mango",
+      "color": "green",
+      "id": 1
+    },
+    {
+      "name": "hatQQZZ",
+      "color": "redQQZZ",
+      "id": 2
+    },
+    {
+      "name": "ertrer",
+      "color": "ttttt",
+      "id": 5
+    },
+    {
+      "name": "dgfdgf",
+      "color": "yyyyyy",
+      "id": 6
+    },
+    {
+      "name": "3333",
+      "color": "4444",
+      "id": 7
+    },
+    {
+      "name": "eee",
+      "color": "QQQAA",
+      "id": 8
+    },
+    {
+      "name": "eee",
+      "color": "QQQAA",
+      "id": 9
+    },
+    {
+      "name": "yyyyy",
+      "color": "yyy",
+      "id": 10
+    },
+    {
+      "name": "SSSS",
+      "color": "DDDDD",
+      "id": 11
+    },
+    {
+      "name": "BBB",
+      "color": "CCC",
+      "id": 12
+    }
+  ]
+}
